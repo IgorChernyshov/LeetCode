@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Two Sum'/>
+        <page name='Remove Element'/>
+        <page name='Remove Duplicates Sorted'/>
+        <page name='Ransom Note'/>
+        <page name='Search Insert'/>
+        <page name='Index of First Occurrence'/>
+        <page name='Majority Element'/>
+        <page name='Best Time to Buy and Sell Stocks'/>
+        <page name='Length of Last Word'/>
+        <page name='Longest Common Prefix'/>
+        <page name='_ Next Question'/>
+    </pages>
+</playground>
