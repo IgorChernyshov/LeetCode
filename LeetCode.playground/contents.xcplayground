@@ -12,5 +12,6 @@
         <page name='Length of Last Word'/>
         <page name='Longest Common Prefix'/>
         <page name='Is Subsequence'/>
+        <page name='Isomorphic Strings'/>
     </pages>
 </playground>
