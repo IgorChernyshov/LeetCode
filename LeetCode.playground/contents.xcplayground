@@ -13,5 +13,6 @@
         <page name='Longest Common Prefix'/>
         <page name='Is Subsequence'/>
         <page name='Isomorphic Strings'/>
+        <page name='Word Pattern'/>
     </pages>
 </playground>
