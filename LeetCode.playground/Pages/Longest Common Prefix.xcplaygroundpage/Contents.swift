@@ -59,7 +59,6 @@ class Trie {
 			currentNode = currentNode.children.first!.value
 			prefix.append(currentNode.value!)
 		}
-		return String(prefix)
 	}
 }
 

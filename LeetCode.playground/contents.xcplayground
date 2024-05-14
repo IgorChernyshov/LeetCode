@@ -14,5 +14,6 @@
         <page name='Is Subsequence'/>
         <page name='Isomorphic Strings'/>
         <page name='Word Pattern'/>
+        <page name='Valid Anagram'/>
     </pages>
 </playground>
