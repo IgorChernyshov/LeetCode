@@ -15,5 +15,6 @@
         <page name='Isomorphic Strings'/>
         <page name='Word Pattern'/>
         <page name='Valid Anagram'/>
+        <page name='Is Happy Number'/>
     </pages>
 </playground>
