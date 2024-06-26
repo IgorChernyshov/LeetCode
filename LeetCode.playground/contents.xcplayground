@@ -17,5 +17,6 @@
         <page name='Valid Anagram'/>
         <page name='Is Happy Number'/>
         <page name='Contains Duplicate 2'/>
+        <page name='Plus One'/>
     </pages>
 </playground>
