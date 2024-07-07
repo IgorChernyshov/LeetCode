@@ -18,5 +18,6 @@
         <page name='Is Happy Number'/>
         <page name='Contains Duplicate 2'/>
         <page name='Plus One'/>
+        <page name='Summary Ranges'/>
     </pages>
 </playground>
