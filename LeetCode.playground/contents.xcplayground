@@ -27,5 +27,6 @@
         <page name='Untitled Page'/>
         <page name='Search Insert Position'/>
         <page name='Maximum Depth of Binary Tree'/>
+        <page name='Same Tree'/>
     </pages>
 </playground>
