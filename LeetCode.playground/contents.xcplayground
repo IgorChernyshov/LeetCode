@@ -26,5 +26,6 @@
         <page name='Merge Two Sorted Lists'/>
         <page name='Untitled Page'/>
         <page name='Search Insert Position'/>
+        <page name='Maximum Depth of Binary Tree'/>
     </pages>
 </playground>
