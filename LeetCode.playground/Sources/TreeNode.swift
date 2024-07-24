@@ -18,10 +18,16 @@ public enum BinaryTree {
 			if let value = $0 { TreeNode(value) } else { nil }
 		}
 		for (index, node) in nodes.enumerated() {
-			guard index < nodes.count - 2 else { break }
-			node?.left = nodes[index * 2 + 1]
-			node?.right = nodes[index * 2 + 2]
+			node?.left = nodes[safe: index * 2 + 1] ?? nil
+			node?.right = nodes[safe: index * 2 + 2] ?? nil
 		}
 		return nodes[0]!
+	}
+}
+
+public extension Collection {
+
+	subscript (safe index: Index) -> Element? {
+		indices.contains(index) ? self[index] : nil
 	}
 }
