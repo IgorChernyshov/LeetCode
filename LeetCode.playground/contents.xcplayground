@@ -19,15 +19,12 @@
         <page name='Contains Duplicate 2'/>
         <page name='Plus One'/>
         <page name='Summary Ranges'/>
-        <page name='Linked List Cycle'/>
-        <page name='ListNode'/>
-        <page name='Untitled Page 2'/>
-        <page name='Untitled Page 3'/>
+        <page name='Has Cycle'/>
         <page name='Merge Two Sorted Lists'/>
-        <page name='Untitled Page'/>
         <page name='Search Insert Position'/>
         <page name='Maximum Depth of Binary Tree'/>
         <page name='Same Tree'/>
         <page name='Invert Tree'/>
+        <page name='Symmetric Tree'/>
     </pages>
 </playground>
