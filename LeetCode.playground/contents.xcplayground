@@ -26,5 +26,6 @@
         <page name='Same Tree'/>
         <page name='Invert Tree'/>
         <page name='Symmetric Tree'/>
+        <page name='Path Sum'/>
     </pages>
 </playground>
