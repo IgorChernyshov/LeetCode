@@ -27,5 +27,6 @@
         <page name='Invert Tree'/>
         <page name='Symmetric Tree'/>
         <page name='Path Sum'/>
+        <page name='Merge Sorted Array'/>
     </pages>
 </playground>
