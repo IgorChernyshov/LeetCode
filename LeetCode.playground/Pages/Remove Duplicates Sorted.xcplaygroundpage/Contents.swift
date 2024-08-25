@@ -29,6 +29,22 @@ func removeDuplicates2(_ nums: inout [Int]) -> Int {
 	return uniqueElements
 }
 
+func removeDuplicates3(_ nums: inout [Int]) -> Int {
+	var firstPointer = 0
+	var secondPointer = 0
+
+	while secondPointer < nums.count {
+		if nums[firstPointer] == nums[secondPointer] {
+			secondPointer += 1
+			continue
+		}
+		firstPointer += 1
+		nums[firstPointer] = nums[secondPointer]
+	}
+
+	return firstPointer + 1
+}
+
 var input = [0,0,1,1,1,2,2,3,3,4]
-removeDuplicates2(&input)
+removeDuplicates3(&input)
 print(input)
