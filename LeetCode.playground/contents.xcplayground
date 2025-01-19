@@ -28,5 +28,6 @@
         <page name='Symmetric Tree'/>
         <page name='Path Sum'/>
         <page name='Merge Sorted Array'/>
+        <page name='Roman To Integer'/>
     </pages>
 </playground>
