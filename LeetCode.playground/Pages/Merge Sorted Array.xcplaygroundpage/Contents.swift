@@ -1,25 +1,19 @@
 import Foundation
 
 func merge(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
-	var last1 = m - 1
-	var last2 = n - 1
-	var current = m + n - 1
+	var nums1pointer = m - 1
+	var nums2pointer = n - 1
+	var mergePointer = m + n - 1
 
-	while last1 >= 0 && last2 >= 0 {
-		if nums1[last1] >= nums2[last2] {
-			nums1[current] = nums1[last1]
-			last1 -= 1
+	while nums2pointer >= 0 {
+		if nums1pointer >= 0 && nums1[nums1pointer] > nums2[nums2pointer] {
+			nums1[mergePointer] = nums1[nums1pointer]
+			nums1pointer -= 1
 		} else {
-			nums1[current] = nums2[last2]
-			last2 -= 1
+			nums1[mergePointer] = nums2[nums2pointer]
+			nums2pointer -= 1
 		}
-		current -= 1
-	}
-
-	while last2 >= 0 {
-		nums1[current] = nums2[last2]
-		last2 -= 1
-		current -= 1
+		mergePointer -= 1
 	}
 }
 
