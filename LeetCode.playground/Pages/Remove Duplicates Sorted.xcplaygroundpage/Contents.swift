@@ -45,6 +45,25 @@ func removeDuplicates3(_ nums: inout [Int]) -> Int {
 	return firstPointer + 1
 }
 
+func removeDuplicates4(_ nums: inout [Int]) -> Int {
+	var slowPointer = 0
+	var fastPointer = 0
+
+	while fastPointer < nums.count {
+		if nums[slowPointer] != nums[fastPointer] {
+			slowPointer += 1
+			nums.swapAt(slowPointer, fastPointer)
+		}
+		fastPointer += 1
+	}
+
+	return slowPointer + 1
+}
+
 var input = [0,0,1,1,1,2,2,3,3,4]
-removeDuplicates3(&input)
+removeDuplicates4(&input)
 print(input)
+
+var input2 = [1,1,2]
+removeDuplicates4(&input2)
+print(input2)
