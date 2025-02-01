@@ -3,7 +3,9 @@ func maxProfit(_ prices: [Int]) -> Int {
 	var maxProfit = 0
 
 	for price in prices {
-		minPrice = min(price, minPrice)
+		if price < minPrice {
+			minPrice = price
+		}
 		maxProfit = max(maxProfit, price - minPrice)
 	}
 
